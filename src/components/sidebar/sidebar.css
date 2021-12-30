@@ -1,0 +1,25 @@
+.sideBar-Conatainer {
+  width: 20%;
+  /* margin: 50px 0; */
+}
+
+.items {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* .items:hover {
+  background: red;
+} */
+
+.active {
+  background: red;
+}
+
+.in-active {
+  background: none;
+}
+
+.icons {
+  font-size: 22px;
+}
