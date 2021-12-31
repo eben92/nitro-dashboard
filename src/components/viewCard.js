@@ -9,7 +9,23 @@ const ViewCard = () => {
       <Sidebar />
       <div className='overviewItems'>
         <Profile />
-        <CreditCard />
+        {/* container */}
+        <div className='grid-Conatainer'>
+          <div className='flex flex-col '>
+            <CreditCard className='' />
+            <CreditCard className=' budget' />
+          </div>
+          <div className='flex flex-col '>
+            <CreditCard />
+            <CreditCard />
+            <CreditCard />
+          </div>
+          <div className='flex flex-col'>
+            <CreditCard />
+            <CreditCard />
+            <CreditCard />
+          </div>
+        </div>
       </div>
     </div>
   );

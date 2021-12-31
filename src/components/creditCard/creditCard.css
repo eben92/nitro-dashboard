@@ -1,0 +1,36 @@
+.credit-card-container {
+  margin-top: 10px;
+  padding: 10px 30px;
+  width: 100%;
+}
+
+.card {
+  background: rgb(46, 29, 29);
+  background: linear-gradient(
+    285deg,
+    rgba(46, 29, 29, 1) 0%,
+    rgba(255, 140, 31, 1) 27%,
+    rgba(237, 66, 9, 1) 100%
+  );
+
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+  font-size: 15px;
+}
+
+.logo {
+  width: 35px;
+  height: 25px;
+}
+
+.cardNumber {
+  padding-top: 15px;
+  letter-spacing: 5px;
+}
+
+.expire {
+  font-weight: 100;
+  font-size: 12px;
+}
