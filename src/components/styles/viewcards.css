@@ -3,10 +3,27 @@
     height: 87vh;
     margin: 3rem;
     /* padding: 20px; */
+    overflow-y: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
   }
 
   .overviewItems {
     width: 100%;
+    margin: 0 40px;
+  }
+
+  .grid-Conatainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .budget {
+    flex: 1;
   }
 }
 @media (min-width: 0) and (max-width: 600px) {
@@ -14,5 +31,12 @@
     height: 95vh;
     margin: 1rem;
     padding: 20px;
+  }
+
+  .grid-Conatainer {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    gap: 20px;
   }
 }

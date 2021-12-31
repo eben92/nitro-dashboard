@@ -1,0 +1,19 @@
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+img {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.icons {
+  font-size: 19px;
+}
+
+.search-icon {
+  margin-right: 40px;
+}

@@ -1,6 +1,7 @@
 .sideBar-Conatainer {
   width: 20%;
-  /* margin: 50px 0; */
+  padding: 50px 10px;
+  height: 105vh;
 }
 
 .items {
@@ -12,9 +13,9 @@
   background: red;
 } */
 
-/* .active {
+.aaactive {
   background: red;
-} */
+}
 
 .in-active {
   background: none;
