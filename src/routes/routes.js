@@ -13,7 +13,7 @@ import {
 export const routes = [
   {
     name: "Home",
-    id: "",
+    id: "home",
     to: "/home",
     path: "/home",
     icon: <AiTwotoneHome />,
