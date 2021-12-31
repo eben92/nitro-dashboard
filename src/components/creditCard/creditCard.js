@@ -10,7 +10,7 @@ const CreditCard = () => {
       </div>
       <div className='card mt-5 shadow-xl'>
         <p>Balance</p>
-        <p>
+        <p className='amount'>
           &#8373; 22,000.<small>00</small>{" "}
         </p>
         <p className='cardNumber'>**** **** **** 1234</p>

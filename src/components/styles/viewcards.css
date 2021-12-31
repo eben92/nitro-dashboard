@@ -32,4 +32,11 @@
     margin: 1rem;
     padding: 20px;
   }
+
+  .grid-Conatainer {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    gap: 20px;
+  }
 }
