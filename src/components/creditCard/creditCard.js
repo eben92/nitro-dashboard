@@ -3,10 +3,10 @@ import { AiOutlinePlus } from "react-icons/ai";
 
 const CreditCard = () => {
   return (
-    <div className='credit-card-container bg-zinc-900 rounded-2xl shadow-2xl '>
+    <div className='card-container bg-zinc-900 rounded-2xl shadow-2xl '>
       <div className='flex items-center justify-between'>
         <h1 className='title'>Cards</h1>
-        <AiOutlinePlus className='icon' />
+        <AiOutlinePlus className='icon plus-icon' />
       </div>
       <div className='card mt-5 shadow-xl'>
         <p>Balance</p>

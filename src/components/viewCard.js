@@ -1,3 +1,4 @@
+import BudgetCard from "./budgetCard/budget";
 import CreditCard from "./creditCard/creditCard";
 import Profile from "./profile/profile";
 import Sidebar from "./sidebar/sidebar";
@@ -13,7 +14,7 @@ const ViewCard = () => {
         <div className='grid-Conatainer'>
           <div className='flex flex-col '>
             <CreditCard className='' />
-            <CreditCard className=' budget' />
+            <BudgetCard className=' budget' />
           </div>
           <div className='flex flex-col '>
             <CreditCard />

@@ -1,4 +1,4 @@
-.credit-card-container {
+.card-container {
   margin-top: 10px;
   padding: 10px 30px;
   width: 100%;
@@ -18,6 +18,15 @@
   border-radius: 10px;
 
   font-size: 15px;
+}
+
+.title {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.plus-icon {
+  font-size: 20px;
 }
 
 .logo {
