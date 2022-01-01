@@ -22,9 +22,9 @@
     gap: 20px;
   }
 
-  .budget {
+  /* .budget {
     flex: 1;
-  }
+  } */
 }
 @media (min-width: 0) and (max-width: 600px) {
   .overviewCard {

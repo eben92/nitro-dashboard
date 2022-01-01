@@ -1,0 +1,20 @@
+.payments {
+  font-size: 15px;
+}
+
+.amount-paid {
+  font-size: 14px;
+  color: rgb(182, 182, 182);
+}
+
+.automated {
+  font-size: 13px;
+}
+
+/* .checkbox input[type="checkbx"] {
+  display: none;
+} */
+
+/* .checkbox input[type="checkbox"]:checked {
+  color: #7bbe72;
+} */
