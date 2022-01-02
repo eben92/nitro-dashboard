@@ -24,8 +24,10 @@ const TransactionCard = () => {
             </div>
           </div>
 
-          <div className='amount-paid'>
-            <span>GH&#8373; </span>21.<small>00</small>
+          <div className='amount-paid text-red-400'>
+            <span className='text-red-400'>
+              GH&#8373; 21.<small>00</small>
+            </span>
           </div>
         </div>
       </div>
@@ -39,8 +41,10 @@ const TransactionCard = () => {
             </div>
           </div>
 
-          <div className='amount-paid'>
-            <span>GH&#8373; </span>200.<small>00</small>
+          <div className='amount-paid text-red-400'>
+            <span className='text-red-400'>
+              GH&#8373; 34.<small>43</small>
+            </span>
           </div>
         </div>
       </div>
@@ -54,8 +58,10 @@ const TransactionCard = () => {
             </div>
           </div>
 
-          <div className='amount-paid'>
-            <span>GH&#8373; </span>44.<small>20</small>
+          <div className='amount-paid '>
+            <span className='text-green-500'>
+              GH&#8373; 83.<small>00</small>
+            </span>
           </div>
         </div>
       </div>
