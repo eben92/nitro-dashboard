@@ -1,0 +1,9 @@
+.dp {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.small-text {
+  font-size: 10px;
+}
