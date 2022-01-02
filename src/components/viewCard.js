@@ -3,6 +3,7 @@ import CreditCard from "./creditCard/creditCard";
 import Profile from "./profile/profile";
 import Sidebar from "./sidebar/sidebar";
 import "./styles/viewcards.css";
+import TransactionCard from "./transactionCard/transactions";
 
 const ViewCard = () => {
   return (
@@ -17,7 +18,7 @@ const ViewCard = () => {
             <BudgetCard className=' budget' />
           </div>
           <div className='flex flex-col '>
-            <CreditCard />
+            <TransactionCard />
             <CreditCard />
             <CreditCard />
           </div>
