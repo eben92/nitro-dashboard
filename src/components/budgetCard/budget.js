@@ -8,8 +8,8 @@ const BudgetCard = () => {
         <h1 className='title'>Budget</h1>
         <AiOutlinePlus className='icon plus-icon' />
       </div>
-      <div className=' mt-7 mb-3'>
-        <div className='flex items-center justify-between mb-4'>
+      <div className=' mt-10 mb-4'>
+        <div className='flex items-center justify-between mb-5'>
           <p>Cash</p>
           <p className='amount'>
             GH&#8373; 1,200.<small>00</small>{" "}
