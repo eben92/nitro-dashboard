@@ -28,7 +28,7 @@ const ReportCard = () => {
     // ],
     series: [
       {
-        data: [1, 2, 3],
+        data: [290, 48, 178, 278, 346],
       },
     ],
     legend: {
