@@ -1,5 +1,6 @@
 import BudgetCard from "./budgetCard/budget";
 import CreditCard from "./creditCard/creditCard";
+import LoanCard from "./LoanCard/Loan";
 import Profile from "./profile/profile";
 import Sidebar from "./sidebar/sidebar";
 import "./styles/viewcards.css";
@@ -21,7 +22,7 @@ const ViewCard = () => {
           <div className='flex flex-col '>
             <TransactionCard />
             <SubscriptionsCard />
-            <CreditCard />
+            <LoanCard />
           </div>
           <div className='flex flex-col'>
             <CreditCard />
