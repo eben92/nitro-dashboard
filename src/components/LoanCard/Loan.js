@@ -3,10 +3,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 
 const image1 =
   "https://assets2.rockpapershotgun.com/apex-legends_C7972ZW.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/apex-legends_C7972ZW.jpg";
-const image2 =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRglNPCoQQA6vqN8FiWyUL8DOH3vXARaBaiag&usqp=CAU";
-const image3 =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzlw1aettzRlhDlI3b_aCgHQjHQCg79Uap3g&usqp=CAU";
+
 const LoanCard = () => {
   return (
     <div className='card-container bg-zinc-900 rounded-2xl shadow-2xl '>
